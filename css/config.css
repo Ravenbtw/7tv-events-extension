@@ -1,14 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 body {
-  margin: 0;
+  overflow: hidden;
   background-color: #181d1f;
 }
 
-.config-logo {
+a {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+img {
   position: absolute;
-  left: 50vw;
-  top: 50vh;
-  width: 96px;
+  left: 50%;
+  top: 50%;
   transform: translate(-50%, -50%);
+  height: 50px;
 }
